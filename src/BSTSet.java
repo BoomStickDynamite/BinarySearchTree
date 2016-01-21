@@ -9,6 +9,21 @@ public class BSTSet implements StringSet_Minus {
 	
 	@Override
 	public boolean add(String s) {
+		Node addedNode;
+		addedNode = new Node(s);
+		if (s == )
+		if (root.value == null) {
+			root.value = s;
+		}
+		if (root.value.compareTo(s) == 0) {
+			return false;			
+		} else if (root.value.compareTo(s) == -1) {
+			root.left = addedNode;
+			return true;
+		} else if (root.value.compareTo(s) == 1) {
+			root.right = addedNode;
+			return true;
+		}
 		// TODO Auto-generated method stub
 		return false;
 	}
