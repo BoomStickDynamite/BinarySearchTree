@@ -1,19 +1,10 @@
 
-/**
- * Binary Search Tree 
- * @author Owner
- *
- */
-public class BSTset implements StringSet_Minus{
-	public Node root;
+public class BSTSet implements StringSet_Minus {
 	
-	/**
-	 * Public constructor that creates an empty tree
-	 */
-	public BSTset (){
-		root.value = null;
-		root.right = null;
-		root.left  = null;
+	Node root;
+	 
+	public BSTSet () {
+		
 	}
 	
 	@Override
@@ -57,21 +48,13 @@ public class BSTset implements StringSet_Minus{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
 }
 
-/**
- * Package private (no modifier)
- * 
- * 
- *
- */
 class Node {
-	String value;
-	   Node left, right;
-	   public Node(String s) {
-	      value = s;
-	      left = right = null;
-	   }
-	}
+   String value;
+   Node left, right;
+   public Node(String s) {
+      value = s;
+      left = right = null;
+   }
 }
