@@ -1,19 +1,26 @@
-
+/**
+ * Binary search tree
+ * @author Grant Zukowski
+ * @version 1 January 2016
+ */
 public class BSTSet implements StringSet_Minus {
 	
 	Node root;
 	 
 	public BSTSet () {
-		
+		root = new Node(null);
 	}
+	
 	
 	@Override
 	public boolean add(String s) {
-		Node addedNode;
-		addedNode = new Node(s);
-		if (s == )
+		Node addedNode = new Node(s);
+		if (s == null) {
+			throw new NullPointerException("the entry value is null");
+		}
 		if (root.value == null) {
 			root.value = s;
+			return true;
 		}
 		if (root.value.compareTo(s) == 0) {
 			return false;			

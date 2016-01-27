@@ -1,0 +1,13 @@
+Grant Zukowski
+Binary Search tree
+Assignment 2
+AD 325
+
+I started the assignment too late.  I worked on the add method first and didn't finish.
+Everything doesn't work.  I didn't even test it.  I would use the print sideways
+function from the Java programming book.  Motivation is my biggest problem right now.
+I learned that I need to start on the work the night that we get it and figure out some 
+motivation.  I would immediately set up a test environment so I could see my progress.
+
+I'll send you an email about my issues as well.
+
